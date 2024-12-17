@@ -1,17 +1,83 @@
-<h1>QUESTIONÁRIO DE SATISFAÇAO<h1>
-<h1>INTRODUÇÃO</h1>
-  
-Desenvolver um programa em Python que permita recolher respostas a um questionário de satisfação e exportar os resultados para um ficheiro de texto, utilizando funções para organizar o código.
-<h1>PROBLEMA</h1>
-Uma escola deseja recolher a opinião de alunos sobre a qualidade dos serviços oferecidos (infraestruturas, atendimento, equipamentos, etc.). Pretende-se criar um programa que automatize a recolha destas respostas e armazene os resultados num ficheiro para análise futura.
-<h1>REQUISITOS</h1>
-  
-Apresentar um questionário com 3 a 5 perguntas.
- - Permitir que um utilizador insira as suas respostas.
- - Guardar as respostas num ficheiro de texto.
- - Exibir uma mensagem de confirmação ao concluir a exportação dos resultados.
-<h1>ORIENTAÇÕES PARA O DESENVOLVIMENTO</h1>
-  
-- apresentar_questionario(): Apresenta as perguntas e recolhe as respostas.
-- exportar_resultados(): Exporta as respostas para um ficheiro de texto.
-- main(): Função principal que organiza o fluxo do programa.
+# Sistema de Questionário de Satisfação
+
+## Sobre o Projeto
+Este sistema foi criado para coletar feedback de usuários através de um questionário de satisfação simples.  
+Permite registrar as respostas e exportá-las para um arquivo de texto para análise posterior.
+
+## Funcionalidades
+1. Apresenta um questionário com cinco perguntas relacionadas à avaliação de uma escola.
+2. Permite ao usuário salvar as respostas em um arquivo de texto com nome personalizado.
+3. Interface de menu para fácil interação.
+
+## Como Funciona?
+
+### Estrutura do Código
+- **Função `apresentar_questionario()`**  
+  Exibe o questionário ao utilizador e coleta as respostas.  
+  As perguntas abrangem tópicos como infraestrutura, atendimento e limpeza.
+
+- **Função `exportar_resultados(respostas)`**  
+  Salva as respostas coletadas em um arquivo de texto.  
+  Permite ao utilizador escolher o nome do ficheiro.
+
+- **Função `main()`**  
+  Apresenta um menu com as opções de responder ao questionário ou sair do sistema.  
+  Controla o fluxo principal do programa.
+
+### Fluxo do Programa
+1. **Início**: O sistema apresenta o menu principal.
+2. **Responder ao Questionário**:  
+   - O utilizador responde às perguntas.  
+   - As respostas são armazenadas e exportadas para um arquivo.
+3. **Sair**: O sistema encerra após agradecer ao utilizador.
+
+## Exemplo de Utilização
+
+### Menu Principal
+
+Sistema de Questionário de Satisfação  
+1. Responder ao Questionário  
+2. Sair  
+Escolha uma opção:
+
+# Satisfaction Survey System
+
+## About the Project
+This system was created to collect user feedback through a simple satisfaction survey.  
+It allows responses to be recorded and exported to a text file for later analysis.
+
+## Features
+1. Presents a survey with five questions related to the evaluation of a school.
+2. Allows the user to save the responses to a text file with a custom name.
+3. Menu interface for easy interaction.
+
+## How It Works?
+
+### Code Structure
+- **Function `apresentar_questionario()`**  
+  Displays the questionnaire to the user and collects responses.  
+  The questions cover topics such as infrastructure, service, and cleanliness.
+
+- **Function `exportar_resultados(respostas)`**  
+  Saves the collected responses in a text file.  
+  Allows the user to choose the file name.
+
+- **Function `main()`**  
+  Displays a menu with options to respond to the survey or exit the system.  
+  Controls the main flow of the program.
+
+### Program Flow
+1. **Start**: The system presents the main menu.
+2. **Answer the Survey**:  
+   - The user answers the questions.  
+   - Responses are stored and exported to a file.
+3. **Exit**: The system closes after thanking the user.
+
+## Example Usage
+
+### Main Menu
+```plaintext
+Satisfaction Survey System  
+1. Answer the Survey  
+2. Exit  
+Choose an option:
