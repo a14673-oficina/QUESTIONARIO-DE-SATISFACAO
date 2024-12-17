@@ -1,5 +1,5 @@
 # Sistema de Questionário de Satisfação
-
+# Português
 ## Sobre o Projeto
 Este sistema foi criado para coletar feedback de usuários através de um questionário de satisfação simples.  
 Permite registrar as respostas e exportá-las para um arquivo de texto para análise posterior.
@@ -39,6 +39,7 @@ Sistema de Questionário de Satisfação
 1. Responder ao Questionário  
 2. Sair  
 Escolha uma opção:
+# Inglês 
 
 # Satisfaction Survey System
 
@@ -54,15 +55,15 @@ It allows responses to be recorded and exported to a text file for later analysi
 ## How It Works?
 
 ### Code Structure
-- **Function `apresentar_questionario()`**  
+- **Function apresentar_questionario()**  
   Displays the questionnaire to the user and collects responses.  
   The questions cover topics such as infrastructure, service, and cleanliness.
 
-- **Function `exportar_resultados(respostas)`**  
+- **Function exportar_resultados(respostas)**  
   Saves the collected responses in a text file.  
   Allows the user to choose the file name.
 
-- **Function `main()`**  
+- **Function `main()**  
   Displays a menu with options to respond to the survey or exit the system.  
   Controls the main flow of the program.
 
@@ -76,7 +77,7 @@ It allows responses to be recorded and exported to a text file for later analysi
 ## Example Usage
 
 ### Main Menu
-```plaintext
+
 Satisfaction Survey System  
 1. Answer the Survey  
 2. Exit  
