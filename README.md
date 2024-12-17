@@ -1,5 +1,5 @@
 # Sistema de Questionário de Satisfação
-# Português
+# Portuguese (Português (Portugal))
 ## Sobre o Projeto
 Este sistema foi criado para coletar feedback de usuários através de um questionário de satisfação simples.  
 Permite registrar as respostas e exportá-las para um arquivo de texto para análise posterior.
@@ -39,7 +39,7 @@ Sistema de Questionário de Satisfação
 1. Responder ao Questionário  
 2. Sair  
 Escolha uma opção:
-# Inglês 
+# English (inglês)
 
 # Satisfaction Survey System
 
