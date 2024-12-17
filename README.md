@@ -8,11 +8,11 @@ Uma escola deseja recolher a opinião de alunos sobre a qualidade dos serviços 
 <h1>Requisitos</h1>
   
 Apresentar um questionário com 3 a 5 perguntas.
-Permitir que um utilizador insira as suas respostas.
-Guardar as respostas num ficheiro de texto.
-Exibir uma mensagem de confirmação ao concluir a exportação dos resultados.
+ - Permitir que um utilizador insira as suas respostas.
+ - Guardar as respostas num ficheiro de texto.
+ - Exibir uma mensagem de confirmação ao concluir a exportação dos resultados.
 <h1>ORIENTAÇÕES PARA O DESENVOLVIMENTO</h1>
   
-apresentar_questionario(): Apresenta as perguntas e recolhe as respostas.
-exportar_resultados(): Exporta as respostas para um ficheiro de texto.
-main(): Função principal que organiza o fluxo do programa.
+- apresentar_questionario(): Apresenta as perguntas e recolhe as respostas.
+- exportar_resultados(): Exporta as respostas para um ficheiro de texto.
+- main(): Função principal que organiza o fluxo do programa.
